@@ -1,6 +1,6 @@
 # npmtest-protocol-buffers
 
-#### test coverage for  [protocol-buffers (v3.2.1)](https://github.com/mafintosh/protocol-buffers)  [![npm package](https://img.shields.io/npm/v/npmtest-protocol-buffers.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-protocol-buffers) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-protocol-buffers.svg)](https://travis-ci.org/npmtest/node-npmtest-protocol-buffers)
+#### basic test coverage for  [protocol-buffers (v3.2.1)](https://github.com/mafintosh/protocol-buffers)  [![npm package](https://img.shields.io/npm/v/npmtest-protocol-buffers.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-protocol-buffers) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-protocol-buffers.svg)](https://travis-ci.org/npmtest/node-npmtest-protocol-buffers)
 
 #### Protocol Buffers for Node.js
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-protocol-buffers/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-protocol-buffers/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-protocol-buffers/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-protocol-buffers/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-protocol-buffers/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-protocol-buffers/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-protocol-buffers/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-protocol-buffers/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-protocol-buffers/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-protocol-buffers/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-protocol-buffers/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-protocol-buffers/build/coverage.html/index.html)
 
@@ -99,7 +99,8 @@
         "bench": "node bench",
         "test": "standard && tape test/*.js"
     },
-    "version": "3.2.1"
+    "version": "3.2.1",
+    "bin": {}
 }
 ```
 
